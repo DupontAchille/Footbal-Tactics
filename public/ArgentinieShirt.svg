@@ -1,0 +1,9 @@
+<svg id="ArgentinieShirt" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Ellipse_10" data-name="Ellipse 10" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" fill="#77b6ff"/>
+  <path id="Ellipse_10_-_Outline" data-name="Ellipse 10 - Outline" d="M30,5a24.991,24.991,0,1,0,9.73,1.963A25.008,25.008,0,0,0,30,5m0-5A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" fill="#fff"/>
+  <line id="Line_5" data-name="Line 5" y2="43" transform="translate(11.5 8.5)" fill="none" stroke="#fff" stroke-width="3"/>
+  <text id="_1" data-name="1" transform="translate(30 38)" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-5.56" y="0">1</tspan></text>
+  <line id="Line_6" data-name="Line 6" y2="51" transform="translate(21.5 4.5)" fill="none" stroke="#fff" stroke-width="3"/>
+  <line id="Line_7" data-name="Line 7" y2="51" transform="translate(38.5 4.5)" fill="none" stroke="#fff" stroke-width="3"/>
+  <line id="Line_8" data-name="Line 8" y2="41" transform="translate(48.5 9.5)" fill="none" stroke="#fff" stroke-width="3"/>
+</svg>

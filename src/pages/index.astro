@@ -1,0 +1,35 @@
+---
+import Navigation from '../components/Navigation.astro'
+import Pitch from '../components/Pitch.astro'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Footbal Tactics">
+  <main class="">
+    <Navigation title="Footbal Tactics" /><Pitch title="" />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+</style>
+<script type="module" src="/src/scripts/ComplicatedDraw.js"></script>
+<script type="module" src="/src/scripts/ColorPicker.js"></script>
+<script type="module" src="/src/scripts/Drag.js"></script>
+<script type="module" src="/src/scripts/screenshot.js"></script>
+<script type="module" src="/src/scripts/ToggleMode.js"></script>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="auto" viewBox="0 0 1491 985">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #5f9131;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #497523;
+      }
+
+      .cls-5 {
+        opacity: 0.5;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        fill: #40bbf0;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="191.761" height="213.306"/>
+    </clipPath>
+  </defs>
+  <g id="FootballPitch" transform="translate(-215 -49)">
+    <g id="Background_Pitch">
+      <rect id="Green_BG" class="cls-2" width="1491" height="985" transform="translate(215 49)"/>
+      <rect id="Pitch_BG" class="cls-2" width="1430" height="935" transform="translate(245 73)"/>
+      <path id="Pitch_BG_-_Outline" data-name="Pitch_BG - Outline" class="cls-3" d="M6,6V929H1424V6H6M0,0H1430V935H0Z" transform="translate(245 73)"/>
+      <rect id="Color_BG5" class="cls-4" width="143" height="923" transform="translate(388 79)"/>
+      <rect id="Color_BG4" class="cls-4" width="143" height="923" transform="translate(674 79)"/>
+      <rect id="Color_BG3" class="cls-4" width="143" height="923" transform="translate(960 79)"/>
+      <rect id="Color_BG2" class="cls-4" width="143" height="923" transform="translate(1246 79)"/>
+      <rect id="Color_BG1" class="cls-4" width="143" height="923" transform="translate(1526 79)"/>
+    </g>
+    <g id="MCT_Logo" class="cls-5" transform="translate(864.12 428.847)">
+      <g id="Group_1" data-name="Group 1" class="cls-6">
+        <path id="Path_1" data-name="Path 1" class="cls-7" d="M166.929,258.252,134.2,276.317l-32.729-18.065v37.743l19.612,11.323a26.234,26.234,0,0,0,26.234,0l19.612-11.323Z" transform="translate(-38.32 -97.526)"/>
+        <path id="Path_2" data-name="Path 2" class="cls-7" d="M178.643,43.722,109,3.514a26.233,26.233,0,0,0-26.234,0L13.117,43.722A26.24,26.24,0,0,0,0,66.442v80.421A26.239,26.239,0,0,0,13.117,169.58l12.125,7V70.88a5.652,5.652,0,0,1,8.48-4.894l62.206,35.042,62.11-35.042a5.652,5.652,0,0,1,8.48,4.894v105.7l12.125-7a26.232,26.232,0,0,0,13.117-22.717V66.442a26.234,26.234,0,0,0-13.117-22.72" transform="translate(0 0)"/>
+      </g>
+    </g>
+    <g id="Middle_Pitch">
+      <path id="Line_1" data-name="Line 1" class="cls-3" d="M2.5,935h-5V0h5Z" transform="translate(960.5 73.5)"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="7.5" cy="7.5" r="7.5" transform="translate(953 534)"/>
+      <path id="Ellipse_2" data-name="Ellipse 2" class="cls-3" d="M137.5,5a133.507,133.507,0,0,0-26.709,2.692,131.747,131.747,0,0,0-47.37,19.934,132.9,132.9,0,0,0-48.011,58.3,131.8,131.8,0,0,0-7.718,24.865,133.841,133.841,0,0,0,0,53.417,131.747,131.747,0,0,0,19.934,47.37,132.9,132.9,0,0,0,58.3,48.011,131.8,131.8,0,0,0,24.865,7.718,133.841,133.841,0,0,0,53.417,0,131.747,131.747,0,0,0,47.37-19.934,132.9,132.9,0,0,0,48.011-58.3,131.8,131.8,0,0,0,7.718-24.865,133.841,133.841,0,0,0,0-53.417,131.747,131.747,0,0,0-19.934-47.37,132.9,132.9,0,0,0-58.3-48.011,131.8,131.8,0,0,0-24.865-7.718A133.507,133.507,0,0,0,137.5,5m0-5A137.5,137.5,0,1,1,0,137.5,137.5,137.5,0,0,1,137.5,0Z" transform="translate(822 401)"/>
+    </g>
+    <g id="Right_Side">
+      <g id="Penalty_Box_Right" transform="translate(0 -1)">
+        <path id="Line_3" data-name="Line 3" class="cls-3" d="M234.989,3.5l-235-1,.021-5,235,1Z" transform="translate(1437 818.5)"/>
+        <path id="Line_4" data-name="Line 4" class="cls-3" d="M2.5,564h-5V0h5Z" transform="translate(1439.5 253.5)"/>
+        <path id="Line_2" data-name="Line 2" class="cls-3" d="M234.989,3.5l-235-1,.021-5,235,1Z" transform="translate(1437.5 255.5)"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="7.5" cy="7.5" r="7.5" transform="translate(1513 534)"/>
+        <path id="Goal_Right" class="cls-3" d="M5,5V135h9V5H5M0,0H19V140H0Z" transform="translate(1670 471)"/>
+      </g>
+      <g id="Goal_Box_Right" transform="translate(148.78 150.303)">
+        <path id="Line_3-2" data-name="Line 3" class="cls-3" d="M86.026,2.866-.011,2.5l.021-5,86.037.366Z" transform="translate(1437 518.979)"/>
+        <path id="Line_4-2" data-name="Line 4" class="cls-3" d="M2.5,265.113h-5V0h5Z" transform="translate(1437.915 253.5)"/>
+        <path id="Line_2-2" data-name="Line 2" class="cls-3" d="M86.026,2.866-.011,2.5l.021-5,86.037.366Z" transform="translate(1437.183 254.232)"/>
+      </g>
+      <path id="Penalty_Arc_Right" class="cls-3" d="M52,226.758V39.242A117.613,117.613,0,0,0,20.012,75.62,116.895,116.895,0,0,0,37.266,213.679,117.733,117.733,0,0,0,52,226.758m5,9.5,0,0a122.6,122.6,0,0,1-41.341-43.423A121.9,121.9,0,0,1,33.645,48.873,122.652,122.652,0,0,1,57,29.739Z" transform="translate(1385 404)"/>
+    </g>
+    <g id="Left_Side">
+      <g id="Penalty_Box_Left" transform="translate(1919.049 1082.5) rotate(-180)">
+        <path id="Line_3-3" data-name="Line 3" class="cls-3" d="M234.989,3.5l-235-1,.021-5,235,1Z" transform="translate(1437 818.5)"/>
+        <path id="Line_4-3" data-name="Line 4" class="cls-3" d="M2.5,564h-5V0h5Z" transform="translate(1439.5 253.5)"/>
+        <path id="Line_2-3" data-name="Line 2" class="cls-3" d="M234.989,3.5l-235-1,.021-5,235,1Z" transform="translate(1437.5 255.5)"/>
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-3" cx="7.5" cy="7.5" r="7.5" transform="translate(1513 534)"/>
+        <path id="Goal_Right-2" data-name="Goal_Right" class="cls-3" d="M5,5V135h9V5H5M0,0H19V140H0Z" transform="translate(1670 471)"/>
+      </g>
+      <g id="Goal_Box_Left" transform="translate(1770.269 931.197) rotate(-180)">
+        <path id="Line_3-4" data-name="Line 3" class="cls-3" d="M86.026,2.866-.011,2.5l.021-5,86.037.366Z" transform="translate(1437 518.979)"/>
+        <path id="Line_4-4" data-name="Line 4" class="cls-3" d="M2.5,265.113h-5V0h5Z" transform="translate(1437.915 253.5)"/>
+        <path id="Line_2-4" data-name="Line 2" class="cls-3" d="M86.026,2.866-.011,2.5l.021-5,86.037.366Z" transform="translate(1437.183 254.232)"/>
+      </g>
+      <path id="Penalty_Arc_Left" class="cls-3" d="M52,226.758V39.242A117.613,117.613,0,0,0,20.012,75.62,116.895,116.895,0,0,0,37.266,213.679,117.733,117.733,0,0,0,52,226.758m5,9.5,0,0a122.6,122.6,0,0,1-41.341-43.423A121.9,121.9,0,0,1,33.645,48.873,122.652,122.652,0,0,1,57,29.739Z" transform="translate(534 674.891) rotate(180)"/>
+    </g>
+    <g id="Corners">
+      <path id="Corner_DownRight" class="cls-3" d="M3,27.544C13.88,25.3,22,15.111,22,3H3V27.544M0,30.956V0H24.85A29.945,29.945,0,0,1,25,3C25,17.85,14.02,30.129,0,30.956Zm0,0H0Z" transform="translate(1673 1004.956) rotate(180)"/>
+      <path id="Corner_DownLeft" class="cls-3" d="M3,3.413V27.956H22c0-12.11-8.122-22.3-19-24.543M0,0H0C14.02.827,25,13.107,25,27.956a29.945,29.945,0,0,1-.151,3H0ZM0,0H0Z" transform="translate(247.999 974)"/>
+      <path id="Corner_UpperRight" class="cls-3" d="M3,3.413V27.956H22c0-12.11-8.122-22.3-19-24.543M0,0H0C14.02.827,25,13.107,25,27.956a29.945,29.945,0,0,1-.151,3H0ZM0,0H0Z" transform="translate(1672.999 106.456) rotate(180)"/>
+      <path id="Corner_UpperLeft" class="cls-3" d="M39,58.543C49.879,56.3,58,46.111,58,34H39V58.543m-3,3.413V31H60.849A29.945,29.945,0,0,1,61,34c0,14.849-10.981,27.129-25,27.956Zm0,0h0Z" transform="translate(210 43)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+---
+export interface Props {
+  Amount: number[]
+}
+const { Amount } = Astro.props
+---
+
+<div>
+  <div class="">
+    {
+      Amount.map((item) => (
+        <div id={'teamleft' + item.toString()} class="draggable z-30 absolute">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="45"
+            viewBox="0 0 60 60"
+          >
+            <defs />
+            <g id="Player_Round">
+              <circle
+                id="Ellipse_10"
+                data-name="Ellipse 10"
+                class="cls-1"
+                cx="30"
+                cy="30"
+                r="30"
+              />
+              <path
+                id="Ellipse_10_-_Outline"
+                data-name="Ellipse 10 - Outline"
+                class="cls-2"
+                d="M30,5a25.008,25.008,0,0,0-9.73,48.037A25.008,25.008,0,0,0,39.73,6.963,24.839,24.839,0,0,0,30,5m0-5A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z"
+              />
+              <text
+                x="50%"
+                y="50%"
+                text-anchor="middle"
+                class="cls-3"
+                dy=".35em"
+              >
+                {item}
+              </text>
+            </g>
+          </svg>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+<style>
+  :root {
+    --team1-primary-color: #008cff;
+    --team1-secondary-color: #ffffff;
+  }
+  .cls-1 {
+    fill: var(--team1-primary-color);
+    transition: all 0.16s ease-in-out;
+  }
+  .cls-2 {
+    fill: var(--team1-secondary-color);
+    transition: all 0.16s ease-in-out;
+  }
+  .cls-3 {
+    fill: var(--team1-secondary-color);
+    transition: all 0.16s ease-in-out;
+  }
+
+  .cls-3 {
+    font-size: 30px;
+    font-family: Roboto-Regular, Roboto;
+  }
+  .draggable {
+    cursor: move;
+    user-select: none;
+  }
+</style>

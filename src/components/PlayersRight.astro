@@ -1,0 +1,106 @@
+---
+export interface Props {
+  Amount: number[]
+}
+
+const { Amount } = Astro.props
+---
+
+<div>
+  <!-- <div class="bg-white left-0 p-4 right-0 text-grey mb-5">
+    <h1 class="text-center text-2xl mb-3 text-blue">Team 2</h1>
+    <div class="items-center">
+      <div class="items-center">
+        <div class="flex items-center mr-3">
+          <label class="text-sm mr-2">Primary:</label>
+          <input
+            class="cursor-pointer w-10 h-10 inline-block rounded-full mr-4 team2-input-color-picker"
+            type="color"
+            data-id="team2-primary-color"
+            name="team2-primary"
+            value="#8a0000"
+          />
+        </div>
+        <div class="flex items-center">
+          <label class="text-sm mr-2">Secondary:</label>
+          <input
+            class="cursor-pointer h-10 outline-none rounded-full w-10 team2-input-color-picker"
+            type="color"
+            data-id="team2-secondary-color"
+            name="team2-secondary"
+            value="#ffffff"
+          />
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="">
+    {
+      Amount.map((item) => (
+        <div id={'teamright' + item.toString()} class="draggable z-30 absolute">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="45"
+            viewBox="0 0 60 60"
+          >
+            <defs />
+            <g id="Player_Round">
+              <circle
+                id="Ellipse_10"
+                data-name="Ellipse 10"
+                class="cls-1"
+                cx="30"
+                cy="30"
+                r="30"
+              />
+              <path
+                id="Ellipse_10_-_Outline"
+                data-name="Ellipse 10 - Outline"
+                class="cls-2"
+                d="M30,5a25.008,25.008,0,0,0-9.73,48.037A25.008,25.008,0,0,0,39.73,6.963,24.839,24.839,0,0,0,30,5m0-5A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z"
+              />
+              <text
+                x="50%"
+                y="50%"
+                text-anchor="middle"
+                class="cls-3"
+                dy=".35em"
+              >
+                {item}
+              </text>
+            </g>
+          </svg>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+<style>
+  :root {
+    --team2-primary-color: #8a0000;
+    --team2-secondary-color: #ffffff;
+  }
+  .cls-1 {
+    fill: var(--team2-primary-color);
+    transition: all 0.16s ease-in-out;
+  }
+  .cls-2 {
+    fill: var(--team2-secondary-color);
+    transition: all 0.16s ease-in-out;
+  }
+  .cls-3 {
+    fill: var(--team2-secondary-color);
+    transition: all 0.16s ease-in-out;
+  }
+
+  .cls-3 {
+    font-size: 30px;
+    font-family: Roboto-Regular, Roboto;
+  }
+  .draggable {
+    cursor: move;
+    user-select: none;
+  }
+</style>
