@@ -1,0 +1,30 @@
+---
+import FDrawing from '../components/FDrawing.astro'
+import Navigation from '../components/Navigation.astro'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Footbal Tactics">
+  <main class="">
+    <Navigation title="Footbal Tactics" /><FDrawing />
+  </main>
+
+  <style>
+    main {
+      margin: auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin: 0;
+    }
+    .text-gradient {
+      background-image: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 400%;
+      background-position: 0%;
+    }
+  </style>
+</Layout>
