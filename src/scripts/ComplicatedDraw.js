@@ -94,6 +94,13 @@ function setMode(e, mode) {
       activeEvents['mousedown'] = startRect
       activeEvents['mouseup'] = endRect
       break
+    case 'arrow':
+      window.addEventListener('mousedown', startArrow)
+      window.addEventListener('mouseup', endArrow)
+
+      activeEvents['mousedown'] = startArrow
+      activeEvents['mouseup'] = endArrow
+      break
 
     default:
       break
@@ -161,6 +168,39 @@ function draw(e) {
   // for smoother drawing
   context.beginPath()
   context.moveTo(x, y)
+}
+
+//arrow
+
+function startArrow(e) {
+  drawing = true
+  context.beginPath()
+  draw(e)
+}
+
+function endArrow(e) {
+  let { x, y } = getMousePos(canvas, e)
+  context.lineTo(x, y)
+  context.stroke()
+  // circle
+  context.beginPath()
+  context.arc(x, y, 15, 0, 2 * Math.PI, false)
+  context.lineWidth = 5
+  context.fill()
+  context.stroke()
+  //triangle
+  // context.fillStyle = 'yellow'
+  // context.beginPath() //Begin a path..
+  // context.moveTo(x, y) //Startpoint (x, y)
+  // context.lineTo(x + 100, y + 50) //Point 1    (x, y)
+  // context.lineTo(x + 50, y + 75) //Point 2    (x, y)
+  // context.closePath() //Close the path.
+  // //Fill triangle with previous set color.
+  // context.fill()
+  // //Give triangle a stroke (width: 4 pixels).
+  // context.strokeStyle = 'blue'
+  // context.lineWidth = 4
+  // context.stroke()
 }
 
 //selectTool
